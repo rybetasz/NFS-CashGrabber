@@ -1,0 +1,30 @@
+#Yaris Kodu
+add_node gameplay cashgrab asdasd
+add_field gameplay asdasd EventID
+add_field gameplay asdasd IntroNis
+add_field gameplay asdasd racestart
+add_field gameplay asdasd region
+add_field gameplay asdasd Name
+add_field gameplay asdasd Template
+add_field gameplay asdasd TrafficLevel
+add_field gameplay asdasd Children 7
+add_field gameplay asdasd gameplayvault
+add_field gameplay asdasd TimeLimit
+add_field gameplay asdasd Opponents
+change_field gameplay asdasd asdasd
+change_field gameplay asdasd IntroNis asdasd
+change_field gameplay asdasd AvailableInQR True
+change_field gameplay asdasd racestart asdasd/startgrid
+change_field gameplay asdasd TrafficLevel asdadasd
+change_field gameplay asdasd gameplayvault asdsada 
+change_field gameplay asdasd TimeLimit asdad
+change_field gameplay asdasd Name asdasd
+change_field gameplay asdasd region asdad
+Checkpoint_0=8788 7878 7878
+Checkpoint_1=8878 7878 7878
+Checkpoint_2=5
+Checkpoint_3=5
+Checkpoint_4=5
+Checkpoint_5=5
+Checkpoint_6=5
+StartPoint=0
