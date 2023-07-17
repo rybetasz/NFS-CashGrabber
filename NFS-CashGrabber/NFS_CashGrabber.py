@@ -26,6 +26,9 @@ def generate_race_script(yaris_adi, yaris_id, koordinatlar, IntroNisA, available
     script += f"change_field gameplay {yaris_adi} Name {yaris_adi}\n"
     script += f"change_field gameplay {yaris_adi} region {race_regiona}\n"
 
+# script += f"add_field gameplay {yaris_adi} Opponents {opponent_value}
+
+
 
 
     for i, koordinat in enumerate(koordinatlar):
