@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-def generate_race_script(yaris_adi, yaris_id, koordinatlar, IntroNisA, available_in_qr, TrafficLevelo, gameplayvaulta, TimeLimits, race_regiona ):
+def generate_race_script(yaris_adi, yaris_id, koordinatlar, IntroNisA, available_in_qr, TrafficLevelo, gameplayvaulta, TimeLimits, race_regiona,Bariyerler ):
     script = f"#Yaris Kodu\n"
     script += f"add_node gameplay cashgrab {yaris_adi}\n"
     script += f"add_field gameplay {yaris_adi} EventID\n"
@@ -28,7 +28,8 @@ def generate_race_script(yaris_adi, yaris_id, koordinatlar, IntroNisA, available
 
 # script += f"add_field gameplay {yaris_adi} Opponents {opponent_value}"
 
-@ script +=f"add_field 
+# script +=f"add_field gameplay {yaris_adi} Barriers {Bariyerler}"
+
 
 
 
